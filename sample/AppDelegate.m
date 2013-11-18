@@ -25,6 +25,13 @@
     
     [bob sleep];
     
+    [bob apiCall];
+    
+    
+    
+    
+    
+    
     self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
