@@ -16,6 +16,9 @@
 		AB031C261839CBA80052D88C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AB031C1B1839CBA80052D88C /* AFURLRequestSerialization.m */; };
 		AB031C271839CBA80052D88C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AB031C1D1839CBA80052D88C /* AFURLResponseSerialization.m */; };
 		AB031C281839CBA80052D88C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB031C1F1839CBA80052D88C /* AFURLSessionManager.m */; };
+		FA37806F183A894E0087BDAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA37806E183A894E0087BDAF /* Main.storyboard */; };
+		FA378073183A8C6D0087BDAF /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA378071183A8C6D0087BDAF /* SViewController.m */; };
+		FA378074183A8C6D0087BDAF /* SViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA378072183A8C6D0087BDAF /* SViewController.xib */; };
 		FAB3190E183915F9009F7ABD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3190D183915F9009F7ABD /* Foundation.framework */; };
 		FAB31910183915F9009F7ABD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3190F183915F9009F7ABD /* CoreGraphics.framework */; };
 		FAB31912183915F9009F7ABD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB31911183915F9009F7ABD /* UIKit.framework */; };
@@ -61,6 +64,10 @@
 		AB031C1D1839CBA80052D88C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		AB031C1E1839CBA80052D88C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		AB031C1F1839CBA80052D88C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		FA37806E183A894E0087BDAF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FA378070183A8C6D0087BDAF /* SViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
+		FA378071183A8C6D0087BDAF /* SViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		FA378072183A8C6D0087BDAF /* SViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SViewController.xib; sourceTree = "<group>"; };
 		FAB3190A183915F9009F7ABD /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3190D183915F9009F7ABD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAB3190F183915F9009F7ABD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -159,6 +166,10 @@
 			children = (
 				FAB3191C183915F9009F7ABD /* AppDelegate.h */,
 				FAB3191D183915F9009F7ABD /* AppDelegate.m */,
+				FA37806E183A894E0087BDAF /* Main.storyboard */,
+				FA378070183A8C6D0087BDAF /* SViewController.h */,
+				FA378071183A8C6D0087BDAF /* SViewController.m */,
+				FA378072183A8C6D0087BDAF /* SViewController.xib */,
 				FAB3193C18391612009F7ABD /* Person.h */,
 				FAB3193D18391612009F7ABD /* Person.m */,
 				FAB3191F183915F9009F7ABD /* Images.xcassets */,
@@ -254,6 +265,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FAB31901183915F9009F7ABD;
 			productRefGroup = FAB3190B183915F9009F7ABD /* Products */;
@@ -271,7 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA37806F183A894E0087BDAF /* Main.storyboard in Resources */,
 				FAB31918183915F9009F7ABD /* InfoPlist.strings in Resources */,
+				FA378074183A8C6D0087BDAF /* SViewController.xib in Resources */,
 				FAB31920183915F9009F7ABD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +311,7 @@
 				AB031C231839CBA80052D88C /* AFNetworkReachabilityManager.m in Sources */,
 				AB031C271839CBA80052D88C /* AFURLResponseSerialization.m in Sources */,
 				AB031C251839CBA80052D88C /* AFURLConnectionOperation.m in Sources */,
+				FA378073183A8C6D0087BDAF /* SViewController.m in Sources */,
 				AB031C241839CBA80052D88C /* AFSecurityPolicy.m in Sources */,
 				AB031C221839CBA80052D88C /* AFHTTPSessionManager.m in Sources */,
 				AB031C261839CBA80052D88C /* AFURLRequestSerialization.m in Sources */,

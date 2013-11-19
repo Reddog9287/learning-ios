@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAB31909183915F9009F7ABD"
-               BuildableName = "sample.app"
-               BlueprintName = "sample"
+               BlueprintIdentifier = "FA37803D183A65790087BDAF"
+               BuildableName = "test.app"
+               BlueprintName = "test"
                ReferencedContainer = "container:sample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,33 +28,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAB31924183915F9009F7ABD"
-               BuildableName = "sampleTests.xctest"
-               BlueprintName = "sampleTests"
-               ReferencedContainer = "container:sample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA378059183A65790087BDAF"
-               BuildableName = "testTests.xctest"
-               BlueprintName = "testTests"
-               ReferencedContainer = "container:sample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAB31909183915F9009F7ABD"
-            BuildableName = "sample.app"
-            BlueprintName = "sample"
+            BlueprintIdentifier = "FA37803D183A65790087BDAF"
+            BuildableName = "test.app"
+            BlueprintName = "test"
             ReferencedContainer = "container:sample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -71,9 +51,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAB31909183915F9009F7ABD"
-            BuildableName = "sample.app"
-            BlueprintName = "sample"
+            BlueprintIdentifier = "FA37803D183A65790087BDAF"
+            BuildableName = "test.app"
+            BlueprintName = "test"
             ReferencedContainer = "container:sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +69,9 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAB31909183915F9009F7ABD"
-            BuildableName = "sample.app"
-            BlueprintName = "sample"
+            BlueprintIdentifier = "FA37803D183A65790087BDAF"
+            BuildableName = "test.app"
+            BlueprintName = "test"
             ReferencedContainer = "container:sample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

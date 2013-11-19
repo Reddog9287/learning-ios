@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  sample
+//  test
 //
-//  Created by Alex Vallorosi on 11/17/13.
+//  Created by Alex Vallorosi on 11/18/13.
 //  Copyright (c) 2013 Alex Vallorosi. All rights reserved.
 //
 
@@ -12,15 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
-    
-    
-    self.window.backgroundColor = [UIColor blackColor];
-    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
     return YES;
 }
-
+							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

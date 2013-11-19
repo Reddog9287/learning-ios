@@ -27,6 +27,6 @@
 
 - (void)sleep;
 - (NSString *)speak;
-- (void)apiCall;
+- (NSArray *)apiCall;
 
 @end
